@@ -42,7 +42,7 @@ public class SingleLinkedList1<E> extends AbstracList1<E> {
     }
 
     @Override
-    public Object remove(Object element) {
+    public Object removeByelement(Object element) {
         int indexof = indexof(element);
         return remove(indexof);
     }

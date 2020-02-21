@@ -69,7 +69,7 @@ public class DoubleLinkedList1<E> extends AbstracList1<E> {
     }
 
     @Override
-    public E remove(E element) {
+    public E removeByelement(E element) {
         int indexof = indexof(element);
         return  remove(indexof);
     }

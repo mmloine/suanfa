@@ -15,7 +15,7 @@ public interface List1<E> {
 
      E remove(int index);
 
-     E remove(E element);
+     E removeByelement(E element);
 
      boolean contains(E element);
 

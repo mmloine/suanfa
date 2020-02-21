@@ -71,7 +71,7 @@ public class ArrayList1<E> extends AbstracList1 {
         return result;
     }
     @Override
-    public E remove(Object element){
+    public E removeByelement(Object element){
         int indexof = indexof((E) element);
         return remove(indexof);
     }
