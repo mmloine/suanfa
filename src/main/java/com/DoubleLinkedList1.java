@@ -127,10 +127,19 @@ public class DoubleLinkedList1<E> extends AbstracList1<E> {
         }
     }
     //两个测试头尾节点的方法
-    public void TestElement(){
-        System.out.println("尾元素："+last.element);
-        System.out.println("尾元素的next元素 ："+last.next.element);
-        System.out.println("首元素的prv元素 ："+first.prve.element);
+    public String TestElement(){
+        String s = "DoubleLinkedList:"+"size="+size+"[";
+        for(int a = 0;a<size;a++){
+            s = s + node(a).prve.element+"_"+
+                    node(a).element+"_"+
+                    node(a).next.element
+                    +",";
+        }
+        if(size ==0){
+            return s+"]";
+        }else{
+            return s.substring(0, s.length() - 1) + "]";
+        }
     }
 
     @Override
