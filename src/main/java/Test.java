@@ -1,19 +1,19 @@
+import com.ArrayList1;
 import com.DoubleLinkedList1;
+import com.List1;
+import com.SingleLinkedList1;
+
+import java.lang.reflect.Array;
 
 public class Test {
     public static void main(String[] args) {
-        DoubleLinkedList1<Object> aa = new DoubleLinkedList1<>();
-        boolean empty = aa.isEmpty();
-        aa.add(0);
-        aa.add(1);
-        aa.add(2);
-        aa.add(3);
-        aa.add(4);
-        aa.remove(0);
-
+        List1 aa = new DoubleLinkedList1();
+        for(int a = 1;a< 200;a++) {
+            aa.add(a);
+        }
+        for(Integer a = 1;a< 200;a++) {
+            aa.remove(a);//参数 如果是int 就不能分辨是索引还是元素
+        }
         System.out.println(aa);
-        System.out.println(aa.TestElement());
-
-
     }
 }

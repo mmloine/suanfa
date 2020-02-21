@@ -1,5 +1,7 @@
 package com;
 
+import com.sun.org.apache.bcel.internal.generic.NEW;
+
 //实现动态数组
 /*
 缺点：内存空间的大量浪费
@@ -8,6 +10,7 @@ package com;
 public class ArrayList1<E> extends AbstracList1 {
     private E[] elements;
     private static final int DEFAULT_CAPACITY=10;
+
     public ArrayList1(int capaticy){
         if(capaticy <= DEFAULT_CAPACITY){
             capaticy = DEFAULT_CAPACITY;
@@ -19,9 +22,10 @@ public class ArrayList1<E> extends AbstracList1 {
     }
     @Override
     public void clear(){
-        for(int a = 0;a < size;a++){
+        /*for(int a = 0;a < size;a++){
             elements[a] = null;
-        }
+        }*/
+        elements = (E[]) new Object[DEFAULT_CAPACITY];
     }
 
     @Override
@@ -43,7 +47,9 @@ public class ArrayList1<E> extends AbstracList1 {
         return old;
     }
     @Override
-    /*o()*/
+    /*o()
+    * 实现下缩容  抢救下浪费内存的问题
+    * */
     public E remove(int index){
         E result = elements[index];
         int i = index + 1;
@@ -51,6 +57,17 @@ public class ArrayList1<E> extends AbstracList1 {
             elements[a -1]=elements[a];
         }
         elements[--size] = null;
+        int length = elements.length;
+        int b = size +1;
+        if(size < (elements.length>>1) &&size > 10){
+            E[] nelememts = (E[]) new Object[b];
+            for(int a = 0;a<size;a++){
+                nelememts[a] = elements[a];
+            }
+            elements = nelememts;
+            System.out.println("缩容:"+"原空间 "+length+"  现空间"+b);
+        }
+
         return result;
     }
     @Override
@@ -84,7 +101,7 @@ public class ArrayList1<E> extends AbstracList1 {
     //确保容量足够的方法
     private void addsize(int capacity){
         int oldCapacity = elements.length;
-        if(oldCapacity >= capacity){
+        if(oldCapacity > capacity){
             return;
         }
         int newCapacity = oldCapacity + (oldCapacity>>1);//新容量为1.5倍
@@ -98,9 +115,12 @@ public class ArrayList1<E> extends AbstracList1 {
     @Override
     public String toString() {
         String ss = "Size="+size+" [";
-        for(int a =0;a<size;a++){
-            ss = ss +elements[a]+",";
-        }
-        return ss.substring(0,ss.length()-1)+"]";
+        if (size != 0) {
+            for(int a =0;a<size;a++){
+                ss = ss +elements[a]+",";
+            }
+            return ss.substring(0,ss.length()-1)+"]";
+        }else{ return ss +"]";}
     }
 }
+
