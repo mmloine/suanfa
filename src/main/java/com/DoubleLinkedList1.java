@@ -1,6 +1,6 @@
 package com;
 /*实现双向列表，相比单向列表提高效率*/
-public class DoubleLinkedList<E> extends AbstracList<E>{
+public class DoubleLinkedList1<E> extends AbstracList1<E> {
     private Node<E> first;
     private Node<E> last;
     @Override

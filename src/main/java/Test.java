@@ -1,12 +1,8 @@
-import com.DoubleLinkedList;
-import com.List;
-import model.Person;
-
-import java.util.LinkedList;
+import com.DoubleLinkedList1;
 
 public class Test {
     public static void main(String[] args) {
-        DoubleLinkedList<Object> aa = new DoubleLinkedList<>();
+        DoubleLinkedList1<Object> aa = new DoubleLinkedList1<>();
         boolean empty = aa.isEmpty();
         aa.add(0);
         aa.add(2);

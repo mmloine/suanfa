@@ -5,16 +5,16 @@ package com;
 缺点：内存空间的大量浪费
 提升空间：当前数组只会自动扩容  没实现自动缩容
 * */
-public class ArrayList<E> extends AbstracList{
+public class ArrayList1<E> extends AbstracList1 {
     private E[] elements;
     private static final int DEFAULT_CAPACITY=10;
-    public ArrayList(int capaticy){
+    public ArrayList1(int capaticy){
         if(capaticy <= DEFAULT_CAPACITY){
             capaticy = DEFAULT_CAPACITY;
         }
         elements = (E[]) new Object[capaticy];//所有的类都继承object
     }
-    public ArrayList(){
+    public ArrayList1(){
         this(DEFAULT_CAPACITY);
     }
     @Override

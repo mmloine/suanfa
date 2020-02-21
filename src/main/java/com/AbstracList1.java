@@ -1,6 +1,6 @@
 package com;
 
-public abstract class AbstracList<E> implements List<E>{
+public abstract class AbstracList1<E> implements List1<E> {
     protected int size;
 
     @Override

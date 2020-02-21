@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/address" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstracList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AbstracList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/删除链表中的节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/删除链表中的节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstracList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AbstracList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstracList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AbstracList1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ArrayList1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DoubleLinkedList1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/List1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SingleLinkedList1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,18 +118,34 @@
       <workItem from="1582098376975" duration="16037000" />
       <workItem from="1582165354833" duration="27930000" />
       <workItem from="1582198740544" duration="12711000" />
-      <workItem from="1582268181360" duration="17843000" />
+      <workItem from="1582268181360" duration="18372000" />
     </task>
+    <task id="LOCAL-00001" summary="双向列表的提交">
+      <created>1582293447142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582293447142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="双向列表的提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="双向列表的提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="903" y="382" key="#Project_Structure" timestamp="1582098516113">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="903" y="382" key="#Project_Structure/62.0.2498.1440@62.0.2498.1440" timestamp="1582098516113" />
+    <state x="1675" y="529" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582293596219">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1675" y="529" key="#com.intellij.fileTypes.FileTypeChooser/62.0.2498.1440@62.0.2498.1440" timestamp="1582293596219" />
     <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser" timestamp="1582285954106">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -146,10 +154,18 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1720" y="587" width="431" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/62.0.2498.1440@62.0.2498.1440" timestamp="1582196817845" />
-    <state x="1715" y="478" key="FileChooserDialogImpl" timestamp="1582198760104">
+    <state x="1576" y="60" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582293824075">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1715" y="478" key="FileChooserDialogImpl/62.0.2498.1440@62.0.2498.1440" timestamp="1582198760104" />
+    <state x="1576" y="60" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582293824075" />
+    <state x="1537" y="321" key="CommitChangelistDialog2" timestamp="1582293446580">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1537" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582293446580" />
+    <state x="1715" y="478" key="FileChooserDialogImpl" timestamp="1582293970057">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1715" y="478" key="FileChooserDialogImpl/62.0.2498.1440@62.0.2498.1440" timestamp="1582293970057" />
     <state width="1203" height="406" key="GridCell.Tab.0.bottom" timestamp="1582293413435">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>

@@ -1,7 +1,7 @@
 package com;
 /*链表实现,相比数组列表  不会让费过多的内存
 * */
-public class SingleLinkedList<E> extends AbstracList<E> {
+public class SingleLinkedList1<E> extends AbstracList1<E> {
     private Node first;
 
     @Override
