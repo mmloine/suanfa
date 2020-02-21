@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="" />
+    <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +111,7 @@
       <workItem from="1582098376975" duration="16037000" />
       <workItem from="1582165354833" duration="27930000" />
       <workItem from="1582198740544" duration="12711000" />
-      <workItem from="1582268181360" duration="18630000" />
+      <workItem from="1582268181360" duration="18876000" />
     </task>
     <task id="LOCAL-00001" summary="双向列表的提交">
       <created>1582293447142</created>
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582294108250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="双向列表的提交">
+      <created>1582294374763</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582294374763</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,30 +165,30 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1576" y="60" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582293824075" />
-    <state x="1537" y="321" key="CommitChangelistDialog2" timestamp="1582294361653">
+    <state x="1537" y="321" key="CommitChangelistDialog2" timestamp="1582294374374">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1537" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582294361653" />
+    <state x="1537" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582294374374" />
     <state x="1715" y="478" key="FileChooserDialogImpl" timestamp="1582293970057">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1715" y="478" key="FileChooserDialogImpl/62.0.2498.1440@62.0.2498.1440" timestamp="1582293970057" />
-    <state width="1203" height="406" key="GridCell.Tab.0.bottom" timestamp="1582293413435">
+    <state width="1202" height="406" key="GridCell.Tab.0.bottom" timestamp="1582294380818">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1203" height="406" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582293413435" />
-    <state width="1203" height="406" key="GridCell.Tab.0.center" timestamp="1582293413435">
+    <state width="1202" height="406" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582294380818" />
+    <state width="1202" height="406" key="GridCell.Tab.0.center" timestamp="1582294380818">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1203" height="406" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582293413435" />
-    <state width="1203" height="406" key="GridCell.Tab.0.left" timestamp="1582293413435">
+    <state width="1202" height="406" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582294380818" />
+    <state width="1202" height="406" key="GridCell.Tab.0.left" timestamp="1582294380818">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1203" height="406" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582293413435" />
-    <state width="1203" height="406" key="GridCell.Tab.0.right" timestamp="1582293413435">
+    <state width="1202" height="406" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582294380818" />
+    <state width="1202" height="406" key="GridCell.Tab.0.right" timestamp="1582294380818">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1203" height="406" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582293413435" />
+    <state width="1202" height="406" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582294380818" />
     <state width="2455" height="507" key="GridCell.Tab.1.bottom" timestamp="1582214667882">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
