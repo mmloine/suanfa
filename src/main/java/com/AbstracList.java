@@ -25,5 +25,10 @@ public abstract class AbstracList<E> implements List<E>{
             throw new IndexOutOfBoundsException("index:"+index+","+"size"+size);
         }
     }
+    protected void addChecked(int index){
+        if(index < 0 || index > size){
+            throw new IndexOutOfBoundsException("index:"+index+","+"size"+size);
+        }
+    }
 
 }

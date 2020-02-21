@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="" />
+    <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/DoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstracList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AbstracList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/删除链表中的节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/删除链表中的节点.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AbstracList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/AbstracList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +31,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HierarchyBrowserManager">
     <option name="SORT_ALPHABETICALLY" value="true" />
@@ -34,8 +54,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mloine-dataStructures/mloine-dataStructures" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -45,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="suanfa" />
@@ -74,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -103,6 +125,8 @@
       <updated>1582098374183</updated>
       <workItem from="1582098376975" duration="16037000" />
       <workItem from="1582165354833" duration="27930000" />
+      <workItem from="1582198740544" duration="12711000" />
+      <workItem from="1582268181360" duration="17843000" />
     </task>
     <servers />
   </component>
@@ -114,34 +138,58 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="903" y="382" key="#Project_Structure/62.0.2498.1440@62.0.2498.1440" timestamp="1582098516113" />
-    <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser" timestamp="1582189524388">
+    <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser" timestamp="1582285954106">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440@62.0.2498.1440" timestamp="1582189524388" />
+    <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440@62.0.2498.1440" timestamp="1582285954106" />
     <state x="1720" y="587" width="431" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582196817845">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1720" y="587" width="431" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/62.0.2498.1440@62.0.2498.1440" timestamp="1582196817845" />
-    <state width="1201" height="411" key="GridCell.Tab.0.bottom" timestamp="1582196948511">
+    <state x="1715" y="478" key="FileChooserDialogImpl" timestamp="1582198760104">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1201" height="411" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582196948511" />
-    <state width="1201" height="411" key="GridCell.Tab.0.center" timestamp="1582196948510">
+    <state x="1715" y="478" key="FileChooserDialogImpl/62.0.2498.1440@62.0.2498.1440" timestamp="1582198760104" />
+    <state width="1203" height="406" key="GridCell.Tab.0.bottom" timestamp="1582293413435">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1201" height="411" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582196948510" />
-    <state width="1201" height="411" key="GridCell.Tab.0.left" timestamp="1582196948510">
+    <state width="1203" height="406" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582293413435" />
+    <state width="1203" height="406" key="GridCell.Tab.0.center" timestamp="1582293413435">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1201" height="411" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582196948510" />
-    <state width="1201" height="411" key="GridCell.Tab.0.right" timestamp="1582196948511">
+    <state width="1203" height="406" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582293413435" />
+    <state width="1203" height="406" key="GridCell.Tab.0.left" timestamp="1582293413435">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1201" height="411" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582196948511" />
-    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog" timestamp="1582165357309">
+    <state width="1203" height="406" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582293413435" />
+    <state width="1203" height="406" key="GridCell.Tab.0.right" timestamp="1582293413435">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582165357309" />
+    <state width="1203" height="406" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582293413435" />
+    <state width="2455" height="507" key="GridCell.Tab.1.bottom" timestamp="1582214667882">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="507" key="GridCell.Tab.1.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582214667882" />
+    <state width="2455" height="507" key="GridCell.Tab.1.center" timestamp="1582214667882">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="507" key="GridCell.Tab.1.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582214667882" />
+    <state width="2455" height="507" key="GridCell.Tab.1.left" timestamp="1582214667882">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="507" key="GridCell.Tab.1.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582214667882" />
+    <state width="2455" height="507" key="GridCell.Tab.1.right" timestamp="1582214667882">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="507" key="GridCell.Tab.1.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582214667882" />
+    <state x="1782" y="433" key="RollbackChangesDialog" timestamp="1582205398383">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1782" y="433" key="RollbackChangesDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582205398383" />
+    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog" timestamp="1582268200466">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582268200466" />
     <state x="1527" y="385" key="scopes" timestamp="1582126302051">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
