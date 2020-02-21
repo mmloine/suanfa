@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/address" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/AbstracList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/AbstracList1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ArrayList1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DoubleLinkedList1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/List1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SingleLinkedList1.java" afterDir="false" />
-    </list>
+    <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +109,7 @@
       <workItem from="1582098376975" duration="16037000" />
       <workItem from="1582165354833" duration="27930000" />
       <workItem from="1582198740544" duration="12711000" />
-      <workItem from="1582268181360" duration="18372000" />
+      <workItem from="1582268181360" duration="18630000" />
     </task>
     <task id="LOCAL-00001" summary="双向列表的提交">
       <created>1582293447142</created>
@@ -127,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582293447142</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="双向列表的提交">
+      <created>1582294108250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582294108250</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,10 +156,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1576" y="60" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582293824075" />
-    <state x="1537" y="321" key="CommitChangelistDialog2" timestamp="1582293446580">
+    <state x="1537" y="321" key="CommitChangelistDialog2" timestamp="1582294361653">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1537" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582293446580" />
+    <state x="1537" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582294361653" />
     <state x="1715" y="478" key="FileChooserDialogImpl" timestamp="1582293970057">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
