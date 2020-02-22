@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyj/Test/floorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cn.xyj.treepicture/完全二叉树图片.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cn.xyj.treepicture/满二叉树.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cn.xyj.treepicture/真二叉树.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cn.xyj/tree/(真 满 )二叉树" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cn.xyj/tree/二叉树笔记" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cn.xyj/tree/完全二叉树笔记" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyj/bijie/img/完全二叉树图片.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyj/bijie/img/满二叉树.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyj/bijie/img/真二叉树.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/删除链表中的节点.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Check$task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Check.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/cn.xyj.treepicture" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/xyj/bijie/file" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -69,6 +59,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\suanfa\src\main\java\com\xyj\bijie\img" />
       <recent name="G:\suanfa\src\main\resources\cn.xyj.treepicture" />
       <recent name="G:\suanfa\src\main\resources\cn.xyj\tree" />
       <recent name="G:\suanfa\src\main\resources\tree" />
@@ -177,7 +168,7 @@
       <workItem from="1582165354833" duration="27930000" />
       <workItem from="1582198740544" duration="12711000" />
       <workItem from="1582268181360" duration="26604000" />
-      <workItem from="1582348877682" duration="29574000" />
+      <workItem from="1582348877682" duration="29847000" />
     </task>
     <task id="LOCAL-00001" summary="双向列表的提交">
       <created>1582293447142</created>
@@ -270,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582371714283</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="二叉树基本概念">
+      <created>1582387036374</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1582387036374</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +319,8 @@
     <MESSAGE value="双向列表的提交" />
     <MESSAGE value="second" />
     <MESSAGE value="list整合" />
-    <option name="LAST_COMMIT_MESSAGE" value="list整合" />
+    <MESSAGE value="二叉树基本概念" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树基本概念" />
   </component>
   <component name="WindowStateProjectService">
     <state x="903" y="382" key="#Project_Structure" timestamp="1582098516113">
@@ -344,30 +343,30 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1576" y="60" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582293824075" />
-    <state x="1435" y="321" key="CommitChangelistDialog2" timestamp="1582371713783">
+    <state x="1435" y="321" key="CommitChangelistDialog2" timestamp="1582387107147">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1435" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582371713783" />
+    <state x="1435" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582387107147" />
     <state x="1715" y="478" key="FileChooserDialogImpl" timestamp="1582383393465">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1715" y="478" key="FileChooserDialogImpl/62.0.2498.1440@62.0.2498.1440" timestamp="1582383393465" />
-    <state width="896" height="400" key="GridCell.Tab.0.bottom" timestamp="1582382365957">
+    <state width="896" height="400" key="GridCell.Tab.0.bottom" timestamp="1582387065210">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="896" height="400" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582382365957" />
-    <state width="896" height="400" key="GridCell.Tab.0.center" timestamp="1582382365957">
+    <state width="896" height="400" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582387065210" />
+    <state width="896" height="400" key="GridCell.Tab.0.center" timestamp="1582387065210">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="896" height="400" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582382365957" />
-    <state width="896" height="400" key="GridCell.Tab.0.left" timestamp="1582382365956">
+    <state width="896" height="400" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582387065210" />
+    <state width="896" height="400" key="GridCell.Tab.0.left" timestamp="1582387065210">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="896" height="400" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582382365956" />
-    <state width="896" height="400" key="GridCell.Tab.0.right" timestamp="1582382365957">
+    <state width="896" height="400" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582387065210" />
+    <state width="896" height="400" key="GridCell.Tab.0.right" timestamp="1582387065210">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="896" height="400" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582382365957" />
+    <state width="896" height="400" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582387065210" />
     <state width="1047" height="351" key="GridCell.Tab.1.bottom" timestamp="1582302155809">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -388,10 +387,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1782" y="433" key="RollbackChangesDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582205398383" />
-    <state x="1527" y="456" key="Vcs.Push.Dialog.v2" timestamp="1582371726619">
+    <state x="1527" y="456" key="Vcs.Push.Dialog.v2" timestamp="1582387043349">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1527" y="456" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1582371726619" />
+    <state x="1527" y="456" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1582387043349" />
     <state x="1003" y="548" key="com.intellij.ide.util.TipDialog" timestamp="1582348878087">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -408,6 +407,18 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1582360059025" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/xyj/listPackage/CircleSingleLinkedList1.java</url>
+          <line>8</line>
+          <properties field="currentSize" class="com.xyj.listPackage.CircleSingleLinkedList1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/suanfa$Test.ic" NAME="Test Coverage Results" MODIFIED="1582297748466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
