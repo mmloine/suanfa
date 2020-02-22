@@ -12,8 +12,12 @@ public class Test {
             aa.removeByelement(a);//参数 如果是int 就不能分辨是索引还是元素
         }
         System.out.println(aa);*/
-        CircleSingleLinkedList<Integer> bb = new CircleSingleLinkedList<>();
+       /* CircleSingleLinkedList<Integer> bb = new CircleSingleLinkedList<>();
 
-        System.out.println(bb);
+        System.out.println(bb);*/
+       List1 ll = new CircleSingleLinkedList<Integer>();
+       for(int a = 0 ;a <10 ; a++){
+           ll.add(a);
+       }
     }
 }
