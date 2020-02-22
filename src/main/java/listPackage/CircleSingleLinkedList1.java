@@ -1,5 +1,5 @@
-package com;
-//单向循环列表
+package listPackage;
+//单向循环列表.
 public class CircleSingleLinkedList1<E> extends AbstracList1<E> {
     //首节点
     private Node<E> first;
@@ -150,7 +150,7 @@ public class CircleSingleLinkedList1<E> extends AbstracList1<E> {
     }
     @Override
     public String toString() {
-        String s = "SingleLinkedList:"+"size="+size+"[";
+        String s = "size="+size+"[";
         for(int a = 0;a<size;a++){
             s = s + node(a).element+",";
         }

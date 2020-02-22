@@ -1,4 +1,4 @@
-package com;
+package listPackage;
 /*链表实现,相比数组列表  不会让费过多的内存
 * */
 public class SingleLinkedList1<E> extends AbstracList1<E> {
@@ -86,7 +86,7 @@ public class SingleLinkedList1<E> extends AbstracList1<E> {
 
     @Override
     public String toString() {
-        String s = "SingleLinkedList:"+"size="+size+"[";
+        String s = "size="+size+"[";
         for(int a = 0;a<size;a++){
          s = s + node(a).element+",";
         }

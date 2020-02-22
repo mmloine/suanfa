@@ -1,4 +1,4 @@
-package com;
+package listPackage;
 /*实现双向列表，相比单向列表提高效率*/
 public class CricleDoubleLinkedList1<E> extends AbstracList1<E> {
     private Node<E> first;
@@ -94,7 +94,7 @@ public class CricleDoubleLinkedList1<E> extends AbstracList1<E> {
     }
     //寻找节点的位/*o()*/置的方法
     private Node<E> node(int index){
-        rangChecked(index);//检查索引是否正确
+        rangChecked(index);//检查索引是否正确.
         if(index <= (size>>1)){
             Node rnode = first;
             for(int i = 0 ;i<index;i++){
@@ -144,7 +144,7 @@ public class CricleDoubleLinkedList1<E> extends AbstracList1<E> {
 
     @Override
     public String toString() {
-        String s = "DoubleLinkedList:"+"size="+size+"[";
+        String s = "size="+size+"[";
         for(int a = 0;a<size;a++){
             s = s + node(a).element+",";
         }

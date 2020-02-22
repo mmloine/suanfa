@@ -1,6 +1,4 @@
-package com;
-
-import com.sun.org.apache.bcel.internal.generic.NEW;
+package listPackage;
 
 //实现动态数组
 /*

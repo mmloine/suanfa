@@ -1,3 +1,5 @@
+package Test;
+
 import utils.Check;
 
 //这个类主要学习时间复杂度和空间复杂度
