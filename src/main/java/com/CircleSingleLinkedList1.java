@@ -1,18 +1,27 @@
 package com;
-
-public class CircleSingleLinkedList<E> extends AbstracList1<E> {
-
+//单向循环列表
+public class CircleSingleLinkedList1<E> extends AbstracList1<E> {
+    //首节点
     private Node<E> first;
-
+    //用于约瑟夫环的节点
     private Node<E> current;
+    //current的索引
+    private int currentSize;
+
 
     //把current指针变成第一个
     public void currentReset(){
         current = first;
+        if(size != 0){currentSize = 0;}
     }
     //把current指向下一个
     public E currentNext(){
         if(current == null){return null;}
+        if(currentSize == (size -1)){
+            currentSize = 0;
+        }else{
+            currentSize++;
+        }
         current = current.next;
         return current.element;
     }
@@ -23,8 +32,17 @@ public class CircleSingleLinkedList<E> extends AbstracList1<E> {
     }
     //内部实现removeCurrent的方法
     private E remoc(){
-        if(current == null){return null;}
-        return null;
+        E result = current.element;
+        current = current.next;
+        int a =1;
+        if(currentSize == (size - 1)){
+          a = 0;
+        }
+        remove(currentSize);
+        if(a == 0){
+            currentSize = 0;
+        }
+        return result;
     }
 
     @Override
@@ -52,6 +70,21 @@ public class CircleSingleLinkedList<E> extends AbstracList1<E> {
         E element1 = node(index).element;
         node(index).element = (E) element;
         return element1;
+    }
+
+    public void testCircle(){
+        String s = "SingleLinkedList:"+"size="+size+"[";
+        for(int a = 0;a<size;a++){
+            s = s + node(a).element+"--"
+                    +node(a).next.element
+                    +",";
+        }
+        if(size ==0){
+            s= s+"]";
+        }else{
+            s= s.substring(0, s.length() - 1) + "]";
+        }
+        System.out.println(s);
     }
 
     @Override
@@ -98,9 +131,9 @@ public class CircleSingleLinkedList<E> extends AbstracList1<E> {
         return ELEMENT_NOT_FIND;
     }
     //根据索引找到element
-    private CircleSingleLinkedList.Node<E> node(int index){
+    private CircleSingleLinkedList1.Node<E> node(int index){
         rangChecked(index);
-        CircleSingleLinkedList.Node<E> node = first;
+        CircleSingleLinkedList1.Node<E> node = first;
         for(int a = 0;a <index;a++){
             node = node.next;
         }
@@ -109,27 +142,12 @@ public class CircleSingleLinkedList<E> extends AbstracList1<E> {
     //内部类
     private static class Node<E>{
         E element;
-        CircleSingleLinkedList.Node<E> next;
-        public Node(E element, CircleSingleLinkedList.Node<E> next) {
+        CircleSingleLinkedList1.Node<E> next;
+        public Node(E element, CircleSingleLinkedList1.Node<E> next) {
             this.element = element;
             this.next = next;
         }
     }
-
-    public String circleTest(){
-        String s = "SingleLinkedList:"+"size="+size+"[";
-        for(int a = 0;a<size;a++){
-            s = s + node(a).element
-                    +node(a).next.element
-                    +",";
-        }
-        if(size ==0){
-            return s+"]";
-        }else{
-            return s.substring(0, s.length() - 1) + "]";
-        }
-    }
-
     @Override
     public String toString() {
         String s = "SingleLinkedList:"+"size="+size+"[";

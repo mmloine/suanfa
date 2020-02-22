@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/CircleSingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/CircleSingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/CircleSingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/CircleSingleLinkedList1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,7 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.Test" />
       <module name="suanfa" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +117,7 @@
       <workItem from="1582165354833" duration="27930000" />
       <workItem from="1582198740544" duration="12711000" />
       <workItem from="1582268181360" duration="26604000" />
-      <workItem from="1582348877682" duration="2600000" />
+      <workItem from="1582348877682" duration="8674000" />
     </task>
     <task id="LOCAL-00001" summary="双向列表的提交">
       <created>1582293447142</created>
@@ -180,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582302152240</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="second">
+      <created>1582352985559</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582352985559</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,30 +262,30 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1576" y="60" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582293824075" />
-    <state x="1537" y="321" key="CommitChangelistDialog2" timestamp="1582352980240">
+    <state x="1537" y="321" key="CommitChangelistDialog2" timestamp="1582352984963">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1537" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582352980240" />
+    <state x="1537" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582352984963" />
     <state x="1715" y="478" key="FileChooserDialogImpl" timestamp="1582293970057">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1715" y="478" key="FileChooserDialogImpl/62.0.2498.1440@62.0.2498.1440" timestamp="1582293970057" />
-    <state width="1047" height="351" key="GridCell.Tab.0.bottom" timestamp="1582302155809">
+    <state width="897" height="401" key="GridCell.Tab.0.bottom" timestamp="1582358080292">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1047" height="351" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582302155809" />
-    <state width="1047" height="351" key="GridCell.Tab.0.center" timestamp="1582302155809">
+    <state width="897" height="401" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582358080292" />
+    <state width="897" height="401" key="GridCell.Tab.0.center" timestamp="1582358080292">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1047" height="351" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582302155809" />
-    <state width="1047" height="351" key="GridCell.Tab.0.left" timestamp="1582302155809">
+    <state width="897" height="401" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582358080292" />
+    <state width="897" height="401" key="GridCell.Tab.0.left" timestamp="1582358080292">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1047" height="351" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582302155809" />
-    <state width="1047" height="351" key="GridCell.Tab.0.right" timestamp="1582302155809">
+    <state width="897" height="401" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582358080292" />
+    <state width="897" height="401" key="GridCell.Tab.0.right" timestamp="1582358080292">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1047" height="351" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582302155809" />
+    <state width="897" height="401" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582358080292" />
     <state width="1047" height="351" key="GridCell.Tab.1.bottom" timestamp="1582302155809">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -313,10 +322,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1527" y="385" key="scopes/62.0.2498.1440@62.0.2498.1440" timestamp="1582126302051" />
-    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1582101236540">
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1582357188786">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1582101236540" />
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1582357188786" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/suanfa$Test.ic" NAME="Test Coverage Results" MODIFIED="1582297748466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
