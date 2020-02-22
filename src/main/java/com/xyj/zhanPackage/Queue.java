@@ -1,11 +1,12 @@
-package zhanPackage;
+package com.xyj.zhanPackage;
 
-import com.sun.org.apache.bcel.internal.generic.RETURN;
-import listPackage.CircleSingleLinkedList1;
-import listPackage.List1;
+
 //队列的设计，先进先出 java官方使用链表实现
 
 //也可以使用栈实现，两个栈  不过没必要，脱裤子放屁.
+
+import com.xyj.listPackage.CircleSingleLinkedList1;
+import com.xyj.listPackage.List1;
 
 public class Queue<E>  {
     //采用链表实现。应为链表操作头元素    比 数组快.

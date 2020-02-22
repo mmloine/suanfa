@@ -1,8 +1,9 @@
-package Test;
+package com.xyj.Test;
 
-import zhanPackage.Deque;
-import zhanPackage.Queue;
-import zhanPackage.Stack;
+
+import com.xyj.zhanPackage.Deque;
+import com.xyj.zhanPackage.Queue;
+import com.xyj.zhanPackage.Stack;
 
 public class StackAndQueueTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package listPackage;
+package com.xyj.listPackage;
 //单向循环列表.
 public class CircleSingleLinkedList1<E> extends AbstracList1<E> {
     //首节点
@@ -131,9 +131,9 @@ public class CircleSingleLinkedList1<E> extends AbstracList1<E> {
         return ELEMENT_NOT_FIND;
     }
     //根据索引找到element
-    private CircleSingleLinkedList1.Node<E> node(int index){
+    private Node<E> node(int index){
         rangChecked(index);
-        CircleSingleLinkedList1.Node<E> node = first;
+        Node<E> node = first;
         for(int a = 0;a <index;a++){
             node = node.next;
         }
@@ -142,8 +142,8 @@ public class CircleSingleLinkedList1<E> extends AbstracList1<E> {
     //内部类
     private static class Node<E>{
         E element;
-        CircleSingleLinkedList1.Node<E> next;
-        public Node(E element, CircleSingleLinkedList1.Node<E> next) {
+        Node<E> next;
+        public Node(E element, Node<E> next) {
             this.element = element;
             this.next = next;
         }

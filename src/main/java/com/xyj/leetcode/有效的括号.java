@@ -1,6 +1,7 @@
-package leetcode;
+package com.xyj.leetcode;
 
-import zhanPackage.Stack;
+
+import com.xyj.zhanPackage.Stack;
 
 public class 有效的括号 {
     //｛【】｝有效 ([)]无效

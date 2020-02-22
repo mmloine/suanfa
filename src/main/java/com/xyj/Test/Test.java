@@ -1,8 +1,7 @@
-package Test;
+package com.xyj.Test;
 
-import listPackage.CircleSingleLinkedList1;
 
-import java.util.ArrayList;
+import com.xyj.listPackage.CircleSingleLinkedList1;
 
 public class Test {
     public static void main(String[] args) {

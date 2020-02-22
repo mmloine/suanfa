@@ -1,6 +1,4 @@
-package leetcode;
-
-import java.util.LinkedList;
+package com.xyj.leetcode;
 
 public class 删除链表中的节点 {
     class ListNode {

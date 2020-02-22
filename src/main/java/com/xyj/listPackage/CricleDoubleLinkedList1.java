@@ -1,4 +1,4 @@
-package listPackage;
+package com.xyj.listPackage;
 /*实现双向列表，相比单向列表提高效率*/
 public class CricleDoubleLinkedList1<E> extends AbstracList1<E> {
     private Node<E> first;

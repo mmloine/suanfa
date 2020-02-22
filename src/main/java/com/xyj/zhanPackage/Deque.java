@@ -1,7 +1,8 @@
-package zhanPackage;
+package com.xyj.zhanPackage;
 
-import listPackage.CircleSingleLinkedList1;
-import listPackage.List1;
+
+import com.xyj.listPackage.CircleSingleLinkedList1;
+import com.xyj.listPackage.List1;
 
 //双端队列  只能从头部和尾部进出
 public class Deque<E> {

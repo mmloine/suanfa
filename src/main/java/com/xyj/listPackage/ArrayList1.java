@@ -1,4 +1,4 @@
-package listPackage;
+package com.xyj.listPackage;
 
 //实现动态数组
 /*

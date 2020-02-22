@@ -1,4 +1,4 @@
-package utils;
+package com.xyj.utils;
 
 import java.util.Date;
 //这个类主要是测试运行时间

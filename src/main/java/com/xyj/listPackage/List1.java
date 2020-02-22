@@ -1,4 +1,4 @@
-package listPackage;
+package com.xyj.listPackage;
 
 public interface List1<E> {
      static final int ELEMENT_NOT_FIND=-1;

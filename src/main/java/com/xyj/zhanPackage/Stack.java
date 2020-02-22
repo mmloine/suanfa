@@ -1,13 +1,14 @@
-package zhanPackage;
+package com.xyj.zhanPackage;
 
-import listPackage.ArrayList1;
-import listPackage.List1;
+
+import com.xyj.listPackage.ArrayList1;
+import com.xyj.listPackage.List1;
 
 //实现栈   后进后出
 public class Stack<E> {
     //内部使用，变成私有，外部就不可以调用
     //数组操作微元素比较快,查询也快  但可能让费内存.
-    // 链表也可以，不过得用循环链表，尾元素操作比较快，不循环单向链表不建议使用
+    // 链表也可以，不过得用循环链表，尾元素操作比较快，不循环单向链表不建议使用.
     private List1<E> list1 = new ArrayList1<E>();
     //返回长度
     public int size(){

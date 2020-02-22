@@ -1,4 +1,4 @@
-package zhanPackage;
+package com.xyj.zhanPackage;
 
 public interface zhan<E> {
     //获得长度
