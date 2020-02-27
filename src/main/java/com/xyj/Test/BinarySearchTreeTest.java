@@ -7,6 +7,7 @@ import org.omg.CORBA.ARG_IN;
 
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.Random;
 
 public class BinarySearchTreeTest{
 
@@ -25,7 +26,7 @@ public class BinarySearchTreeTest{
         }
     }
     public static void main(String[] args) {
-        test2();
+        testPrintlnTree();
         
     }
     public static void test(){
@@ -36,14 +37,17 @@ public class BinarySearchTreeTest{
         System.out.println(ii);
     }
 
-    public static void test2(){
-        Integer[] w = {7001,90,11,30,70,29,6,3,2134,12,1,24,123,12,354,123,23,25,20,26,353,356,400,2135,2137,7002,8000,8123,7583};
+    //测试画树
+    public static void testPrintlnTree(){
+        ArrayList<Integer> ii = new ArrayList<>();
+        for(int a = 0;a <30;a++){
+            ii.add((int)(Math.random()*1000));
+        }
         BinarySearchTree<Integer> pp = new BinarySearchTree<>();
-        for(Integer a:w){
+        for(Integer a:ii){
             pp.add(a);
         }
         pp.printlnTree();
-
     }
 
     public static void testString(){
