@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyj/Test/BinarySearchTreeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyj/treePackage/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyj/treePackage/Comparetor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyj/Test/PrintTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyj/utils/AbstartPrintTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xyj/utils/PrintlnTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyj/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyj/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyj/Test/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyj/Test/BinarySearchTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyj/treePackage/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyj/treePackage/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,12 +69,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.BinarySearchTreeTest">
-    <configuration name="有效的括号" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.有效的括号" />
+    <configuration name="BinarySearchTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyj.Test.BinarySearchTreeTest" />
       <module name="suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="com.xyj.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xyj.Test.BinarySearchTreeTest" />
+    <configuration name="PrintTreeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xyj.Test.PrintTreeTest" />
       <module name="suanfa" />
       <extension name="coverage">
         <pattern>
@@ -136,10 +137,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BinarySearchTreeTest" />
+        <item itemvalue="Application.PrintTreeTest" />
         <item itemvalue="Application.floorTest" />
         <item itemvalue="Application.StackAndQueueTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.有效的括号" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +172,11 @@
       <workItem from="1582268181360" duration="26604000" />
       <workItem from="1582348877682" duration="30192000" />
       <workItem from="1582530182690" duration="17796000" />
+      <workItem from="1582611456669" duration="5987000" />
+      <workItem from="1582632932668" duration="6133000" />
+      <workItem from="1582691353190" duration="20551000" />
+      <workItem from="1582722325027" duration="7401000" />
+      <workItem from="1582781234567" duration="16000000" />
     </task>
     <task id="LOCAL-00001" summary="双向列表的提交">
       <created>1582293447142</created>
@@ -277,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582387249444</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="二叉树基本实现">
+      <created>1582611576759</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582611576759</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +342,8 @@
     <MESSAGE value="second" />
     <MESSAGE value="list整合" />
     <MESSAGE value="二叉树基本概念" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树基本概念" />
+    <MESSAGE value="二叉树基本实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树基本实现" />
   </component>
   <component name="WindowStateProjectService">
     <state x="903" y="382" key="#Project_Structure" timestamp="1582098516113">
@@ -340,10 +354,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1675" y="529" key="#com.intellij.fileTypes.FileTypeChooser/62.0.2498.1440@62.0.2498.1440" timestamp="1582384843220" />
-    <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser" timestamp="1582545131277">
+    <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser" timestamp="1582802374000">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440@62.0.2498.1440" timestamp="1582545131277" />
+    <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440@62.0.2498.1440" timestamp="1582802374000" />
     <state x="1720" y="587" width="431" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582196817845">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -352,30 +366,30 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1576" y="60" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582293824075" />
-    <state x="1435" y="321" key="CommitChangelistDialog2" timestamp="1582387249033">
+    <state x="1435" y="321" key="CommitChangelistDialog2" timestamp="1582611576086">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1435" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582387249033" />
+    <state x="1435" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582611576086" />
     <state x="1715" y="478" key="FileChooserDialogImpl" timestamp="1582383393465">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1715" y="478" key="FileChooserDialogImpl/62.0.2498.1440@62.0.2498.1440" timestamp="1582383393465" />
-    <state width="894" height="275" key="GridCell.Tab.0.bottom" timestamp="1582548635184">
+    <state width="2240" height="567" key="GridCell.Tab.0.bottom" timestamp="1582804893597">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="894" height="275" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582548635184" />
-    <state width="894" height="275" key="GridCell.Tab.0.center" timestamp="1582548635184">
+    <state width="2240" height="567" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582804893597" />
+    <state width="2240" height="567" key="GridCell.Tab.0.center" timestamp="1582804893597">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="894" height="275" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582548635184" />
-    <state width="894" height="275" key="GridCell.Tab.0.left" timestamp="1582548635184">
+    <state width="2240" height="567" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582804893597" />
+    <state width="2240" height="567" key="GridCell.Tab.0.left" timestamp="1582804893597">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="894" height="275" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582548635184" />
-    <state width="894" height="275" key="GridCell.Tab.0.right" timestamp="1582548635184">
+    <state width="2240" height="567" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582804893597" />
+    <state width="2240" height="567" key="GridCell.Tab.0.right" timestamp="1582804893597">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="894" height="275" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582548635184" />
+    <state width="2240" height="567" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582804893597" />
     <state width="1047" height="351" key="GridCell.Tab.1.bottom" timestamp="1582302155809">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -396,26 +410,30 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1782" y="433" key="RollbackChangesDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582205398383" />
-    <state x="1527" y="456" key="Vcs.Push.Dialog.v2" timestamp="1582387351209">
+    <state x="1527" y="456" key="Vcs.Push.Dialog.v2" timestamp="1582611583939">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1527" y="456" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1582387351209" />
-    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog" timestamp="1582611484208">
+    <state x="1527" y="456" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1582611583939" />
+    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog" timestamp="1582781257625">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582611484208" />
+    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582781257625" />
     <state x="1729" y="638" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582294684182">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1729" y="638" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.2498.1440@62.0.2498.1440" timestamp="1582294684182" />
+    <state x="1053" y="353" key="refactoring.ChangeSignatureDialog" timestamp="1582794291582">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1053" y="353" key="refactoring.ChangeSignatureDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582794291582" />
     <state x="1527" y="385" key="scopes" timestamp="1582126302051">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1527" y="385" key="scopes/62.0.2498.1440@62.0.2498.1440" timestamp="1582126302051" />
-    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1582360059025">
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1582803887300">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1582360059025" />
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1582803887300" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
