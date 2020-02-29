@@ -1,11 +1,5 @@
 package com.xyj.treePackage;
 
-
-import com.sun.org.apache.xpath.internal.operations.Bool;
-import com.xyj.model.Person;
-import com.xyj.utils.AbstartPrintTree;
-import org.omg.CORBA.PolicyListHelper;
-
 import java.util.*;
 
 //二叉搜索树
