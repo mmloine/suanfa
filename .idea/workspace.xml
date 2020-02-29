@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="">
+    <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="二叉树remove等方法实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyj/Test/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyj/Test/BinarySearchTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyj/treePackage/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyj/treePackage/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +174,7 @@
       <workItem from="1582781234567" duration="22878000" />
       <workItem from="1582869121575" duration="19069000" />
       <workItem from="1582955754837" duration="2505000" />
-      <workItem from="1582959724628" duration="14455000" />
+      <workItem from="1582959724628" duration="14703000" />
     </task>
     <task id="LOCAL-00001" summary="双向列表的提交">
       <created>1582293447142</created>
@@ -304,7 +302,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582814462732</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="二叉树remove等方法实现">
+      <created>1582980255338</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1582980255338</updated>
+    </task>
+    <task id="LOCAL-00020" summary="二叉树remove等方法实现">
+      <created>1582980348183</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1582980348183</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +370,8 @@
     <MESSAGE value="二叉树基本概念" />
     <MESSAGE value="二叉树基本实现" />
     <MESSAGE value="画二叉树的工具，在util包下" />
-    <option name="LAST_COMMIT_MESSAGE" value="画二叉树的工具，在util包下" />
+    <MESSAGE value="二叉树remove等方法实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树remove等方法实现" />
   </component>
   <component name="WindowStateProjectService">
     <state x="903" y="382" key="#Project_Structure" timestamp="1582098516113">
@@ -381,30 +394,30 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1576" y="60" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582293824075" />
-    <state x="1435" y="321" key="CommitChangelistDialog2" timestamp="1582980341088">
+    <state x="1435" y="321" key="CommitChangelistDialog2" timestamp="1582980365833">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1435" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582980341088" />
+    <state x="1435" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582980365833" />
     <state x="1715" y="478" key="FileChooserDialogImpl" timestamp="1582814523684">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1715" y="478" key="FileChooserDialogImpl/62.0.2498.1440@62.0.2498.1440" timestamp="1582814523684" />
-    <state width="1046" height="504" key="GridCell.Tab.0.bottom" timestamp="1582980165060">
+    <state width="1046" height="504" key="GridCell.Tab.0.bottom" timestamp="1582980401921">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1046" height="504" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582980165060" />
-    <state width="1046" height="504" key="GridCell.Tab.0.center" timestamp="1582980165060">
+    <state width="1046" height="504" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582980401921" />
+    <state width="1046" height="504" key="GridCell.Tab.0.center" timestamp="1582980401921">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1046" height="504" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582980165060" />
-    <state width="1046" height="504" key="GridCell.Tab.0.left" timestamp="1582980165059">
+    <state width="1046" height="504" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582980401921" />
+    <state width="1046" height="504" key="GridCell.Tab.0.left" timestamp="1582980401921">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1046" height="504" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582980165059" />
-    <state width="1046" height="504" key="GridCell.Tab.0.right" timestamp="1582980165060">
+    <state width="1046" height="504" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582980401921" />
+    <state width="1046" height="504" key="GridCell.Tab.0.right" timestamp="1582980401921">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1046" height="504" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582980165060" />
+    <state width="1046" height="504" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582980401921" />
     <state width="1047" height="351" key="GridCell.Tab.1.bottom" timestamp="1582302155809">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -425,14 +438,14 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1782" y="433" key="RollbackChangesDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582205398383" />
-    <state x="1527" y="456" key="Vcs.Push.Dialog.v2" timestamp="1582980301263">
+    <state x="1527" y="456" key="Vcs.Push.Dialog.v2" timestamp="1582980378311">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1527" y="456" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1582980301263" />
-    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog" timestamp="1582959725288">
+    <state x="1527" y="456" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1582980378311" />
+    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog" timestamp="1582980866901">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582959725288" />
+    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582980866901" />
     <state x="1729" y="638" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582811648726">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
