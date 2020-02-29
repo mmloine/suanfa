@@ -111,9 +111,9 @@ public class BinarySearchTreeTest{
         System.out.println(pp.isComplete());
         /*pp.fanzhuanTree();*/
        /* pp.printlnTree();*/
-        pp.testpre();
+       /* pp.testpre();*/
         System.out.println("");
-        pp.testpost();
+        /*pp.testpost();*/
     }
 
     public static void testString(){
