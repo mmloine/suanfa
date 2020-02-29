@@ -46,6 +46,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/mmloine/suanfa.git" />
+      </set>
+    </option>
+  </component>
   <component name="HierarchyBrowserManager">
     <option name="SORT_ALPHABETICALLY" value="true" />
     <option name="SCOPE" value="All" />
@@ -457,10 +464,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1576" y="60" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582293824075" />
-    <state x="1435" y="321" key="CommitChangelistDialog2" timestamp="1582989235781">
+    <state x="1435" y="321" key="CommitChangelistDialog2" timestamp="1582989266657">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1435" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582989235781" />
+    <state x="1435" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582989266657" />
     <state x="1715" y="478" key="FileChooserDialogImpl" timestamp="1582988736661">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -501,10 +508,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1782" y="433" key="RollbackChangesDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582205398383" />
-    <state x="1527" y="456" key="Vcs.Push.Dialog.v2" timestamp="1582988808514">
+    <state x="1527" y="456" key="Vcs.Push.Dialog.v2" timestamp="1582989277027">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1527" y="456" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1582988808514" />
+    <state x="1527" y="456" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1582989277027" />
     <state x="1003" y="548" key="com.intellij.ide.util.TipDialog" timestamp="1582986858074">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
