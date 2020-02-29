@@ -4,7 +4,7 @@
     <list default="true" id="538771aa-b1f4-433e-a640-0c2187a3894a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xyj/Test/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyj/Test/BinarySearchTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyj/utils/AbstartPrintTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyj/utils/AbstartPrintTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xyj/treePackage/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xyj/treePackage/BinarySearchTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +173,10 @@
       <workItem from="1582632932668" duration="6133000" />
       <workItem from="1582691353190" duration="20551000" />
       <workItem from="1582722325027" duration="7401000" />
-      <workItem from="1582781234567" duration="22367000" />
+      <workItem from="1582781234567" duration="22878000" />
+      <workItem from="1582869121575" duration="19069000" />
+      <workItem from="1582955754837" duration="2505000" />
+      <workItem from="1582959724628" duration="14455000" />
     </task>
     <task id="LOCAL-00001" summary="双向列表的提交">
       <created>1582293447142</created>
@@ -294,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582805224137</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="画二叉树的工具，在util包下">
+      <created>1582814462732</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1582814462732</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,10 +369,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1675" y="529" key="#com.intellij.fileTypes.FileTypeChooser/62.0.2498.1440@62.0.2498.1440" timestamp="1582384843220" />
-    <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser" timestamp="1582802374000">
+    <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser" timestamp="1582899630161">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440@62.0.2498.1440" timestamp="1582802374000" />
+    <state x="2006" y="312" key="#com.intellij.ide.util.MemberChooser/62.0.2498.1440@62.0.2498.1440" timestamp="1582899630161" />
     <state x="1720" y="587" width="431" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582196817845">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -371,30 +381,30 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1576" y="60" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582293824075" />
-    <state x="1435" y="321" key="CommitChangelistDialog2" timestamp="1582805223404">
+    <state x="1435" y="321" key="CommitChangelistDialog2" timestamp="1582814462160">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1435" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582805223404" />
-    <state x="1715" y="478" key="FileChooserDialogImpl" timestamp="1582809883363">
+    <state x="1435" y="321" key="CommitChangelistDialog2/62.0.2498.1440@62.0.2498.1440" timestamp="1582814462160" />
+    <state x="1715" y="478" key="FileChooserDialogImpl" timestamp="1582814523684">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1715" y="478" key="FileChooserDialogImpl/62.0.2498.1440@62.0.2498.1440" timestamp="1582809883363" />
-    <state width="1288" height="566" key="GridCell.Tab.0.bottom" timestamp="1582814422912">
+    <state x="1715" y="478" key="FileChooserDialogImpl/62.0.2498.1440@62.0.2498.1440" timestamp="1582814523684" />
+    <state width="1046" height="504" key="GridCell.Tab.0.bottom" timestamp="1582980165060">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1288" height="566" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582814422912" />
-    <state width="1288" height="566" key="GridCell.Tab.0.center" timestamp="1582814422912">
+    <state width="1046" height="504" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1582980165060" />
+    <state width="1046" height="504" key="GridCell.Tab.0.center" timestamp="1582980165060">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1288" height="566" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582814422912" />
-    <state width="1288" height="566" key="GridCell.Tab.0.left" timestamp="1582814422912">
+    <state width="1046" height="504" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1582980165060" />
+    <state width="1046" height="504" key="GridCell.Tab.0.left" timestamp="1582980165059">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1288" height="566" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582814422912" />
-    <state width="1288" height="566" key="GridCell.Tab.0.right" timestamp="1582814422912">
+    <state width="1046" height="504" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1582980165059" />
+    <state width="1046" height="504" key="GridCell.Tab.0.right" timestamp="1582980165060">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state width="1288" height="566" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582814422912" />
+    <state width="1046" height="504" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1582980165060" />
     <state width="1047" height="351" key="GridCell.Tab.1.bottom" timestamp="1582302155809">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -415,14 +425,14 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1782" y="433" key="RollbackChangesDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582205398383" />
-    <state x="1527" y="456" key="Vcs.Push.Dialog.v2" timestamp="1582805316906">
+    <state x="1527" y="456" key="Vcs.Push.Dialog.v2" timestamp="1582814478028">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1527" y="456" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1582805316906" />
-    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog" timestamp="1582781257625">
+    <state x="1527" y="456" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1582814478028" />
+    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog" timestamp="1582959725288">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582781257625" />
+    <state x="1003" y="548" key="com.intellij.ide.util.TipDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1582959725288" />
     <state x="1729" y="638" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582811648726">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
@@ -435,22 +445,10 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1527" y="385" key="scopes/62.0.2498.1440@62.0.2498.1440" timestamp="1582126302051" />
-    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1582803887300">
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup" timestamp="1582971401606">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1582803887300" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/com/xyj/listPackage/CircleSingleLinkedList1.java</url>
-          <line>8</line>
-          <properties field="currentSize" class="com.xyj.listPackage.CircleSingleLinkedList1" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="974" y="325" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1582971401606" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/suanfa$Test.ic" NAME="Test Coverage Results" MODIFIED="1582297748466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
