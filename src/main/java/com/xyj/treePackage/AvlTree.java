@@ -6,7 +6,7 @@ import javafx.scene.Parent;
 
 import javax.swing.tree.FixedHeightLayoutCache;
 import java.util.Comparator;
-
+//写失败的avl树
 public class AvlTree<E> extends BinarySearchTree<E>{
     public AvlTree(Comparator comparetor) {
         super(comparetor);
