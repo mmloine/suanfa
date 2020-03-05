@@ -4,7 +4,9 @@ import java.util.*;
 
 //二叉搜索树
 //特点：  比根节点大的放右边    小的放左边
-public class BinarySearchTree<E>  extends BinaryTree{
+//搜索添加的时间复杂度是o(h)都和高度有关，最坏情况就是从小到大添加 时间复杂度0(n)
+//h 的时间复杂度o(logn)
+public class BinarySearchTree<E>  extends BinaryTree<E>{
 
     //比较器
     private Comparator comparator;
@@ -17,6 +19,7 @@ public class BinarySearchTree<E>  extends BinaryTree{
     public BinarySearchTree() {
     }
 
+
     //向树内添加元素
     public void add(E element){
 
@@ -25,15 +28,16 @@ public class BinarySearchTree<E>  extends BinaryTree{
 
         //加入第一个元素的情况
         if(root == null){
-         root = new Node<E>(element,null);
+         root = createNode(element,null);/*new Node<E>(element,null);*/
          size++;
+         afterAdd(root);
          return;
         }
 
         //添加的不是第一个节点
         Node<E> eNode = root;
         int c = 0;
-        Node<E> parent = new Node<E>();
+        Node<E> parent = createNode();/*new Node<E>();*/
         while (eNode!= null) {
             parent = eNode;
             c = compare(element, eNode.element);
@@ -49,12 +53,15 @@ public class BinarySearchTree<E>  extends BinaryTree{
         }
 
         //找到父节点 看看要插入那个子树
+        Node<E> newNode = createNode(element,parent); /*new Node<E>(element, parent);*/
         if(c > 0){
-            parent.right = new Node<E>(element,parent);
+            parent.right = newNode;
         }else{
-            parent.left = new Node<E>(element,parent);
+            parent.left = newNode;
         }
         size++;
+        //添加节点后的处理
+        afterAdd(newNode);
     }
 
     //移除树内某个元素
@@ -136,7 +143,7 @@ public class BinarySearchTree<E>  extends BinaryTree{
     * 返回值>0  e1 > e2
     * 返回值<0  e1 < e2
     * */
-    private int compare(E e1,E e2){
+    protected int compare(E e1,E e2){
         if (comparator != null) {
             return comparator.compare(e1,e2);
         }else{
@@ -148,6 +155,4 @@ public class BinarySearchTree<E>  extends BinaryTree{
 
         return "";
     }
-
-
 }

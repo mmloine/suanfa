@@ -65,6 +65,28 @@ public class BinaryTree<E> extends AbstartPrintTree {
         protected boolean hasTwoChild(){
             return left !=null && right != null;
         }
+
+        //判断是不是左子树
+        protected boolean isLeftTree(){
+            if(parent == null){return false;}
+            if(parent.left == null){
+                return false;
+            }
+            if(parent.right == null){
+                return true;
+            }
+            if(parent.right == this){
+                return false;
+            }
+            if(parent.left == this){
+                return true;
+            }
+            return false;
+        }
+        //判断是不是左子树
+        protected boolean isRightTree(){
+            return !isLeftTree();
+        }
         @Override
         public java.lang.String toString() {
             return element.toString();
@@ -256,5 +278,17 @@ public class BinaryTree<E> extends AbstartPrintTree {
         }
         if( node.parent ==null){return null;}
         return null;
+    }
+
+    protected void afterAdd(Node<E> node){
+
+    }
+
+    protected Node<E> createNode(E element,Node<E> parent){
+        return new Node<>(element,parent);
+    }
+
+    protected Node<E> createNode(){
+        return new Node<>();
     }
 }
